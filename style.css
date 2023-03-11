@@ -1,0 +1,202 @@
+ .containe {
+   margin: 0 auto;
+   max-width: 600%;
+   padding: 0%;
+   text-align: center;
+   align-items: center;
+   color: #F0F7F4;
+ }
+
+
+ form label {
+   display: block;
+   margin-bottom: 10px;
+ }
+
+ form input {
+
+   margin-bottom: 10px;
+   padding: 3px;
+   max-width: 100%;
+   box-sizing: border-box;
+
+ }
+
+ form button {
+
+   margin: 0 auto;
+   background-color: #4CAF50;
+   color: #F0F7F4;
+   cursor: pointer;
+
+ }
+
+ table {
+   border-collapse: collapse;
+   width: 70%;
+   height: 20px;
+   margin: 0 auto;
+   margin-bottom: 4%;
+ }
+
+ th,
+ td {
+   padding: 1px;
+   text-align: center;
+   border-bottom: 1px solid white;
+   background-color: orange;
+ }
+
+ .square {
+   color: black;
+ }
+
+
+
+ canvas {
+
+   top: 45%;
+   left: 50%;
+   width: 100%;
+   height: 100%;
+   margin: -320px 0 0 -320px;
+
+ }
+
+ body {
+   background: linear-gradient(to bottom, white, #32292F);
+   font-family: Arial, sans-serif;
+   font-size: 50%;
+   margin: 0%;
+   font-weight: bold;
+   text-decoration: none;
+ }
+
+ .container {
+   margin: 0 auto;
+   max-width: 700px;
+   max-height: 5%;
+   padding: 1%;
+   text-align: center;
+   align-items: center;
+ }
+
+ .instructions,
+ .scorboard {
+   width: 50%;
+   text-align: center;
+ }
+
+ .title {
+   font-size: 1290%;
+   margin-top: 30px;
+   margin-bottom: 40px;
+   text-align: center;
+
+ }
+
+ @media only screen and (max-width:450px) {
+   body {
+     font-size: 30%;
+   }
+ }
+
+ @media only screen and (min-width:700px) {
+   body {
+     font-size: 100%;
+     font-family: 'Lobster', sans-serif;
+   }
+ }
+
+ #game-canvas {
+   display: block;
+   margin: 0 auto;
+   text-align: center;
+ }
+
+ .scoreboard {
+   background-color: #F0F7F4;
+   border: 3px solid #F0F7F4;
+   margin-top: 10%;
+   margin-bottom: 20%;
+   padding: 0%;
+   text-align: center;
+
+ }
+
+ .scoreboard-title {
+   font-size: 55%;
+   margin: 0;
+   text-align: center;
+
+ }
+
+ .scoreboard-text {
+   font-size: 100%;
+   margin: 0;
+
+ }
+
+
+
+ .instructions-title {
+   font-size: 160%;
+   margin: 0;
+   text-align: center;
+
+ }
+
+ ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+
+ li {
+   margin-bottom: 2%;
+   text-align: center;
+ }
+
+ li::before {
+   content: "•";
+   text-align: center;
+ }
+
+ #score-list {
+   color: black;
+ }
+
+ .link {
+   text-align: center;
+   margin: 0 auto;
+   margin-top: 10px;
+   background-color: yellow;
+   padding: 1px;
+   width: 40%;
+   height: 10%;
+   position: center;
+   font-size: 100%;
+
+
+ }
+
+ #pl {
+   margin-bottom: 300%;
+   border: 3px groove grey;
+   font-weight: bold;
+   font-family: 'Lobster', sans-serif;
+
+ }
+
+ #play {
+   color: transparent;
+   margin: 0 auto;
+
+
+ }
+
+ #cash {
+   border: 3px groove grey;
+   font-family: 'Lobster', sans-serif;
+ }
