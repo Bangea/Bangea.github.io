@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <meta charset='UTF-8'>
+    <title>Blocks Game</title>
+    <style>
+
+    </style>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <h1 class="title">Blocks Game</h1>
+      <p id="cash" class="link"><a href="#high">High Score Board</a></p>
+      <button id="pl" class="link"><a href="#play">PLAY</a></button>
+      <p id="play">play</p>
+      <canvas id="game-canvas"></canvas>
+      <div class="scoreboard">
+
+        <h2 id="C4" class="instructions-title">How to play:</h2>
+        <ul>
+          <li>
+            The game starts when you hit spacebar.
+          </li>
+          <li>
+            If you didn't see, the game is above.
+          </li>
+          <li>
+            Use the arrow keys to move the shapes left or right.
+          </li>
+          <li>
+            Use the down key or spacebar to instantly move the shape to the bottom.
+          </li>
+          <li>
+            Press the up arrow to rotate the shapes.
+          </li>
+          <li>
+            You may also use 'a','w','s','d'. a=left, d=right, w=up, and s=down
+          </li>
+          <li>
+            Try to clear as many lines as possible to score points!
+          </li>
+          <li>
+            Watchout! The blocks will get faster as you progress in the game.
+          </li>
+          <li>
+            Record your score below. If it does not work try minimizing your screen to less than half, then try again.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="containe">
+      <h1 id="high">High Score Board</h1>
+      <form id="form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <label for="score">Score:</label>
+        <input type="number" id="score" required>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="scores">
+        <h2>Scores</h2>
+        <table>
+          <thead>
+            <tr>
+              <th class="square">Name</th>
+              <th class="square">Score</th>
+            </tr>
+          </thead>
+          <tbody id="score-list">
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+
+
+
+
+    <canvas></canvas>
+
+
+    <script>
+
+
+    </script>
+
+  </body>
+
+</html>
